@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp & Login Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/9d2026a172.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="sign-up">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>OR Use Your Email Address For Registration</p>
+                <input type="text" name="txt" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswd" placeholder="Password" required>
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>OR Use Your Account</p>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswd" placeholder="Password" required>
+                <a href="#">Forget Your Password?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Hello Again!</h1>
+                    <p>To stay connected, please log in with your personal information.</p>
+                    <button id="logIn" class="overlay-btn">Login</button>
+                </div>
+                <div class="overlay-right">
+                    <h1>Hey There!</h1>
+                    <p>Provide your personal information and embark on a journey with us.</p>
+                    <button id="signUp" class="overlay-btn">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
